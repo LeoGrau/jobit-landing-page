@@ -1,0 +1,20 @@
+button {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  font-size: 1.02rem;
+}
+
+button.action {
+  cursor: pointer;
+  background-color: var(--ducky-yellow);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: max-content;
+  transition: all 0.1s ease-in;
+}
+
+button.action:hover {
+  background-color: var(--prussian-blue);
+  color: var(--ducky-yellow);
+}

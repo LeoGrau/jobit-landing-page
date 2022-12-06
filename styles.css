@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+  --prussian-blue: #0D2E4A;
+  --prussian-light-blue: rgb(4,82,126);
+  --prussian-sky-blue: rgba(0,212,255,1);
+  --turquoise-100: #44FFD1;
+  --turquoise-75: #44ffd0e3;
+  --grey-sad: #333333a2;
+  --ducky-yellow: #F2AF29;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+}
