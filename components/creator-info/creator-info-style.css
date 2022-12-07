@@ -1,0 +1,29 @@
+.creator-info {
+  font-family: 'Chakra Petch', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
+
+.creator-info .text-container p {
+  font-weight: 500;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.creator-info .text-container > p > span:nth-child(3) {
+  color: var(--turquoise-75);
+}
+
+
+.creator-info .text-container a.bi {
+  margin-left: 0;
+  margin-right: 6px;
+  color: var(--ducky-yellow);
+  font-size: 1.6rem;
+}
+
+.creator-info .text-container a.bi:hover {
+  color: white;
+}

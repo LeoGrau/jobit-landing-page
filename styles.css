@@ -8,15 +8,15 @@
   --turquoise-75: #44ffd0e3;
   --grey-sad: #333333a2;
   --ducky-yellow: #F2AF29;
+  --prussian-blue-transparent: #0d2e4aa9;
+  --prussian-dark-blue:#071E30;
 }
-
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 .center {
   display: flex;
